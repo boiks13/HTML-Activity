@@ -1,0 +1,332 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+}
+p{
+ 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #595959;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000000;
+}
+
+li {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #595959;
+    }
+
+
+    .work-experience .subtitle{
+        color:#FB6D3A;
+   }
+
+   .sidebar{
+        width: 370px;
+        background: #1E2939;
+        color: #FFFFFF;
+        padding-top: 40px;
+    }
+
+    .sidebar > .content {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .contacts p {
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 8px 0px 0px 0px;
+    }
+
+    .contacts a {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .contacts h3 {
+        margin: 0;
+    }
+
+    .contacts .phone-number {
+        text-decoration: none;
+    }
+
+    .contacts p:last-child {
+        margin: 0;
+    }
+
+    .sidebar > .skills {
+        margin: 47px 0px 0px 0px;
+    }
+
+    .skills h3 {
+        margin-top: 45px; 
+        margin-bottom: 8px;
+    }
+
+    .skills ul {
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .skills ul li::before {
+        content: "\2022";
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FB6D3A;
+        display: inline-block;
+        width: 10px;
+    }
+
+    .skills  li {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffff;   
+    }
+    
+    /*MAIN CONTENT STYLES*/
+    .main-content {
+        width: calc(100% - 370px) ;
+        padding: 102PX 217PX 107PX 88PX;
+    }
+
+    .summary {
+        margin-bottom: 40px;
+    }
+
+    .summary > h4 {
+        margin: 0;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+
+    }
+
+    .summary > h2 {
+        margin: 19px 0px 24px 0px;
+        font-family: Montserrat;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 55px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+     }
+
+    .summary > p {
+        margin: 0px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #595959;
+    }
+
+    .projects > h3 {
+        margin: 0;
+    }
+
+    .projects > ol {
+        margin: 8 0 1.5em 0;
+        padding: 0;
+        counter-reset: item;
+    }
+
+    ol > li {
+        margin: 0;
+        padding: 0 0 0 2em;
+        text-indent: -2em;
+        list-style-type: none;
+        counter-increment: item;
+    }
+
+    ol > li::before {
+        display: inline-block;
+        width: 1em;
+        padding-right: 13px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        text-align: right;
+        content: counter(item) ".";
+
+    }
+
+    .projects > ol span {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        font-style: normal;
+        color: #000000;
+     }
+
+    .projects a {
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-decoration-line: underline;
+        color: #595959;
+    }
+
+    .work-experience {
+        margin: 51px 0px 0px 0px;
+    }
+
+    .work-experience > h3 {
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin: 0;
+    }
+
+    .work-experience > .experience {
+        margin: 12px 0px;
+    }
+
+    .work-experience > .experience > h4 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 20px 0px 12px 0px;
+    }
+
+    .work-experience > .experience > p {
+        margin: 0;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        color:#A8A8A8
+    }
+
+    .work-experience > .experience > ul {
+        list-style: none;
+        padding-left: 0px;
+        margin: 8px 0px 0px 0px;
+    }
+
+    .work-experience > .experience > ul li::before {
+        content: "\2022";
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        color: #595959;
+        display: inline-block;
+        width: 10px;
+    }
+
+    .work-experience > .experience > li {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #595959;
+    }
+
+
+    .education{
+        margin: 43px 0px 0px 0px;
+      }
+      .education > h3 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 27px; /* 122.727% */
+        margin: 43px 0px 12px 0px;
+    }
+
+    .education > h4 {
+        color: #FB6D3A;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 125% */
+        margin: 0;
+    }
+
+    .education > h5 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px; /* 121.429% */
+        margin: 11px 0px 12px 0px;
+    }
+
+    .education > p {
+        color: #A8A8A8;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px; /* 125% */
+        margin:0px;
+    }
+ 
+
+    
